@@ -4,11 +4,11 @@ title: Home
 menu-order: 10
 permalink: /
 redirect_from:
-  - /linked_from/sticker_qr
+  - /qr/sticker
 ---
 
 
 
-# The Watcherrrrr
+# The Watcherrrrr 
 
-... is watching you
+... is watching you <i class="fa-brands fa-twitter"></i>
