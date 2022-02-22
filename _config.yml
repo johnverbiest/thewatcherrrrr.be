@@ -2,6 +2,10 @@
 compress_html:
   clippings: all
 
+# Plugins
+plugins:
+  - jekyll-redirect-from
+
 # Exclude
 exclude:
   - .sass-cache/
