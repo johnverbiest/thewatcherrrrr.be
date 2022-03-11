@@ -6,6 +6,10 @@ compress_html:
 plugins:
   - jekyll-redirect-from
 
+#SASS
+sass:
+  style: compact
+
 # Exclude
 exclude:
   - .sass-cache/
