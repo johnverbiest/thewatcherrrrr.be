@@ -1,48 +1,20 @@
 ---
+# Content
 title: Home
+
+# Menu
 menu-order: 10
+menu-parent: root
+
+# Links
 permalink: /
 redirect_from:
   - /qr/sticker
+
+# Layout
+layout: default
 ---
 
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>The Watcherrrrr</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            background-color: #10102c;
-            text-align: center;
-        }
-
-        .logoholder {
-            color: #ddaf8b;
-            font-family: 'Architects Daughter', cursive;
-            font-size: 2em;
-        }
-
-        .logo {
-            max-width: 40%;
-            max-height: 40%;
-        }
-    </style>
-
-</head>
-
-<body>
-<div class="logoholder">
-    <img src="/assets/the-watcherrrrr.svg" class="logo"  />
-    <br />
-    Coming Soon...
+<div style="width: 100%; text-align: center">
+    <img src="/assets/the-watcherrrrr.png" style="max-width: 70%; max-height: 70%" />
 </div>
-</body>
-</html>

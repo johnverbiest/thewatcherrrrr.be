@@ -1,17 +1,15 @@
 ---
 layout: compress
 ---
-
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     {% include fontawesome.html %}
-    <!--<link rel="stylesheet" href="style.css">-->
-    <!--<script src="script.js"></script>-->
+    {% include screen-layout.html %}
   </head>
   <body>
+    {% include navbar.html %}
     {{ content }}
   </body>
 </html>
