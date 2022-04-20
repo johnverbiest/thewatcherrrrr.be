@@ -1,0 +1,56 @@
+.resume {
+  margin-top: 40px;
+
+  .chapterTitle {
+    font-size: $h5-font-size;
+    text-align: left;
+    background-color: lightseagreen;
+    color: black;
+    padding-left: 0.2rem;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .avatar {
+      max-width: 200px;
+      width: 90%;
+    }
+    .name {
+      font-size: $h1-font-size;
+      text-align: center;
+    }
+    .subtitle {
+      font-size: $h5-font-size;
+      text-align: center;
+    }
+    .block {
+      margin-top: 1rem;
+      width: 100%;
+      ol {
+        display: flex;
+        list-style-type: none;
+        padding-left: 0px;
+        flex-wrap: wrap;
+        li {
+          display: flex;
+          margin-left: 0;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: baseline;
+          min-width: 15rem;
+          i {
+            width: 2rem;
+            text-align: center;
+          }
+          p{
+            flex-grow: 1;
+          }
+        }
+      }
+    }
+  }
+}

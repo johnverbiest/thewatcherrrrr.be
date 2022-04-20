@@ -9,8 +9,12 @@ layout: compress
     {% include screen-layout.html %}
   </head>
   <body>
+  <div class="mainplaceholder">
     {% include navbar.html %}
+    <main class="flex-fill">
     {{ content }}
+    </main>
     {% include footer.html %}
+  </div>
   </body>
 </html>

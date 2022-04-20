@@ -1,0 +1,63 @@
+---
+# Content
+title: Resume
+
+# Menu
+menu-order: 100
+menu-parent: root
+
+# Links
+permalink: /resume
+redirect_from:
+  - /qr/sticker
+
+# Layout
+layout: default
+---
+
+<div class="container resume"><div class="row">
+  <div class="col-md-4 sidebar">
+    <img class="rounded-circle avatar" src="{{ site.data.resume.general.gravatar }}" alt="{{ site.data.resume.general.name }}">
+    <div class="name">{{ site.data.resume.general.name }}</div>
+    <div class="subtitle">{{ site.data.resume.general.subtitle }}</div>
+
+    <div class="block">
+      <h4 class="chapterTitle">Contact</h4>
+      <ol>
+        <li><i class="fa-solid fa-mobile-retro"></i><p>{{ site.data.resume.general.phone }}</p></li>
+        <li><i class="fa-solid fa-envelope"></i><p><a href="mailto:{{ site.data.resume.general.mail }}">{{ site.data.resume.general.mail }}</a></p></li>
+        <li><i class="fa-brands fa-telegram"></i><p><a target="_blank" href="https://t.me/{{ site.data.resume.general.telegram }}">@{{ site.data.resume.general.telegram }}</a></p></li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h4 class="chapterTitle">Training & Certifications</h4>
+      <ol>
+        {% for certification in site.data.resume.certifications %}
+        <li><p>{{ certification.name }} <small>({{ certification.date }})</small></p></li>
+        {% endfor %}
+       </ol>
+    </div>
+
+    <div class="block">
+      <h4 class="chapterTitle">Traits</h4>
+      <ol>
+        {% for trait in site.data.resume.traits %}
+        <li><p>{{ trait }}</p></li>
+        {% endfor %}
+      </ol>
+    </div>
+
+    <div class="block">
+      <h4 class="chapterTitle">Technologies</h4>
+      <p>
+        {{ site.data.resume.technologies }}
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <div class="col-md-8">More to come...</div>
+</div></div>

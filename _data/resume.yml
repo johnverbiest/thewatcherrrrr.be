@@ -1,0 +1,34 @@
+general:
+  gravatar: "//www.gravatar.com/avatar/55d07ea5ab0fdc21a29c10eed2be1be8?d=mm&s=200"
+  name: John Verbiest
+  subtitle: Senior developer, ethical hacker & code magician
+  phone: +32 474 87 64 33
+  mail: john@johnverbiest.be
+  telegram: TheWatcherrrrr
+certifications:
+  - name: Microsoft certified professional
+    date: 2016
+    link:
+  - name: Programming in C#
+    date: 2016
+    link: "https://www.credly.com/badges/3aa64e63-1d64-4ddd-8edb-8fa70b2b975d"
+  - name: TOGAF9 Certified
+    date: 2018
+    link: "https://www.credly.com/badges/8a50f3f5-8985-48b3-b98e-afe383ce00c2"
+  - name: Cyber security bootcamp
+    date: 2021
+    link:
+  - name: Burp Suite Certified Practitioner
+    date: 2021
+    link: "https://portswigger.net/web-security/e/c/9d92c93aeaa81d76"
+traits:
+  - Coding skills in multiple languages and operating systems
+  - Being a team player and coach
+  - Fast learner
+  - Flexible
+  - Architecting creative solutions for complex problems
+  - Highly stress-resilient
+  - Awesome Google skills
+  - Always keeping the sunny side up
+technologies: C#.net, Unit Testing (nUnit, xUnit & TDD), Async development, MsSql & Azure SQL, React, Typescript, Terraform, Microsoft Azure Management, VB.net, CQRS, Azure Service Bus, CQRS, Dapper ORM, Entity Framework, Application Insights, Azure Storage Options, MVC, .net core, Nhibernate, Redis Cache, Angular and more.
+

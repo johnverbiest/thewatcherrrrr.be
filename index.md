@@ -8,8 +8,6 @@ menu-parent: root
 
 # Links
 permalink: /
-redirect_from:
-  - /qr/sticker
 
 # Layout
 layout: default
