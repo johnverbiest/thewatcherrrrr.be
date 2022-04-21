@@ -15,18 +15,28 @@ redirect_from:
 layout: default
 ---
 
-<div class="container resume"><div class="row">
-  <div class="col-md-4 sidebar">
-    <img class="rounded-circle avatar" src="{{ site.data.resume.general.gravatar }}" alt="{{ site.data.resume.general.name }}">
-    <div class="name">{{ site.data.resume.general.name }}</div>
-    <div class="subtitle">{{ site.data.resume.general.subtitle }}</div>
+<div class="container resume">
+  <div class="row">
+    <div class="col-md-12 titlebar">
+      <img class="rounded-circle avatar" src="{{ site.data.resume.general.gravatar }}" alt="{{ site.data.resume.general.name }}">
+      <div class="namesubtitleholder">
+        <div class="name">{{ site.data.resume.general.name }}</div>
+        <div class="subtitle">{{ site.data.resume.general.subtitle }}</div>
+      </div>
+    </div>
+  </div>
 
+  <div class="row">
+  <div class="col-md-4 sidebar">
     <div class="block">
       <h4 class="chapterTitle">Contact</h4>
       <ol>
         <li><i class="fa-solid fa-mobile-retro"></i><p>{{ site.data.resume.general.phone }}</p></li>
         <li><i class="fa-solid fa-envelope"></i><p><a href="mailto:{{ site.data.resume.general.mail }}">{{ site.data.resume.general.mail }}</a></p></li>
-        <li><i class="fa-brands fa-telegram"></i><p><a target="_blank" href="https://t.me/{{ site.data.resume.general.telegram }}">@{{ site.data.resume.general.telegram }}</a></p></li>
+        <li><i class="fa-brands fa-telegram"></i><p><a target="_blank" href="https://t.me/{{ site.data.resume.general.telegram }}">{{ site.data.resume.general.telegram }}</a></p></li>
+        <li><i class="fa-brands fa-twitter"></i><p><a target="_blank" href="https://twitter.com/{{ site.data.resume.general.twitter }}">@{{ site.data.resume.general.twitter }}</a></p></li>
+        <li><i class="fa-brands fa-linkedin"></i><p><a target="_blank" href="https://www.linkedin.com/in/{{ site.data.resume.general.linkedin }}">{{ site.data.resume.general.linkedin }}</a></p></li>
+        <li><i class="fa-brands fa-github"></i><p><a target="_blank" href="https://github.com/{{ site.data.resume.general.github }}">{{ site.data.resume.general.github }}</a></p></li>
       </ol>
     </div>
 
@@ -59,5 +69,28 @@ layout: default
 
 
 
-  <div class="col-md-8">More to come...</div>
+  <div class="col-md-8 mainbar">
+    <div class="block">
+      <h4 class="chapterTitle">Profile</h4>
+      <ol>
+        {% for profile in site.data.resume.profile %}
+        <li><p><strong>{{ profile.start }}</strong> {{ profile.continue }}</p></li>
+        {% endfor %}
+      </ol>
+    </div>
+
+    <div class="block">
+      <h4 class="chapterTitle">Professional Experience</h4>
+      <ol>
+        {% for job in site.data.resume.experience %}
+        <li>
+          <h5><strong>{{ job.job }}</strong> <small>({{ job.time }})</small></h5>
+          <h6>{{ job.company }}</h6>
+          <p>{{ job.text }}</p>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+
 </div></div>

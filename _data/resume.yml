@@ -1,10 +1,14 @@
 general:
-  gravatar: "//www.gravatar.com/avatar/55d07ea5ab0fdc21a29c10eed2be1be8?d=mm&s=200"
+  gravatar: "//www.gravatar.com/avatar/55d07ea5ab0fdc21a29c10eed2be1be8?d=mm&s=150"
   name: John Verbiest
   subtitle: Senior developer, ethical hacker & code magician
   phone: +32 474 87 64 33
   mail: john@johnverbiest.be
   telegram: TheWatcherrrrr
+  twitter: TheWatcherrrrr
+  linkedin: john-verbiest
+  github: johnverbiest
+
 certifications:
   - name: Microsoft certified professional
     date: 2016
@@ -21,6 +25,7 @@ certifications:
   - name: Burp Suite Certified Practitioner
     date: 2021
     link: "https://portswigger.net/web-security/e/c/9d92c93aeaa81d76"
+
 traits:
   - Coding skills in multiple languages and operating systems
   - Being a team player and coach
@@ -30,5 +35,31 @@ traits:
   - Highly stress-resilient
   - Awesome Google skills
   - Always keeping the sunny side up
+
 technologies: C#.net, Unit Testing (nUnit, xUnit & TDD), Async development, MsSql & Azure SQL, React, Typescript, Terraform, Microsoft Azure Management, VB.net, CQRS, Azure Service Bus, CQRS, Dapper ORM, Entity Framework, Application Insights, Azure Storage Options, MVC, .net core, Nhibernate, Redis Cache, Angular and more.
 
+profile:
+  - start: Thinking outside the box
+    continue: is one of the main features my colleagues would praise me for. Whenever a complex problem arises, you can count on me to help locate the most suitable solution for your situation.
+  - start: Seeing the big picture, helicopter view, and tying things together
+    continue: is what I love most about any job. Development can rapidly introduce bugs without a clear sight of the end goal and everything connected.
+  - start: Architecture, code and infrastructure
+    continue: should always walk hand in hand. My experience in these fields puts me in a unique position to design a modern solution using the latest techniques and implement it on multiple levels.
+
+experience:
+  - job: Senior .net developer & Red Team Lead
+    company: Infinitas Learning Products & Technology (ILPT)
+    text: Senior developer within Informat (44.000 daily users – 1823 schools). Architect and develop new code with the latest technologies. Support the legacy systems while migrating them into microservices.<br />Part of offensive security team. Performing penetration tests. I took over the company Active Directory and found several vulnerabilities in multiple applications.
+    time: 2016 - Present
+  - job: System Administrator & Developer
+    company: VZW den achtkanter
+    text: For this non-profit organization I was responsible for everything IT related. Next to the day-to-day infrastructure needs I also created websites, custom software for reporting and synchronizations.
+    time: 2007 - 2016
+  - job: Developer, Ethical Hacker, System Administrator
+    company: Self employed
+    text: Develop and maintain custom-made software and websites for businesses. Set up of Linux and Windows servers, VOIP solutions, and network administration. Penetration testing (ethical hacking).
+    time: 2005 - Present
+  - job: System Administrator & Developer
+    company: VZW D.O.P. WVL
+    text: After working hours, as a token of support to the community, I help by securing, maintaining and supporting their entire IT system.
+    time: 2010 - Present
